@@ -1,0 +1,4978 @@
+fileFormatVersion: 2
+guid: 7050e4be4ac24e645b07d97b4db593ba
+timeCreated: 1495295649
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mm6_enemysheetfix_0
+    21300002: mm6_enemysheetfix_1
+    21300004: mm6_enemysheetfix_2
+    21300006: mm6_enemysheetfix_3
+    21300008: mm6_enemysheetfix_4
+    21300010: mm6_enemysheetfix_5
+    21300012: mm6_enemysheetfix_6
+    21300014: mm6_enemysheetfix_7
+    21300016: mm6_enemysheetfix_8
+    21300018: mm6_enemysheetfix_9
+    21300020: mm6_enemysheetfix_10
+    21300022: mm6_enemysheetfix_11
+    21300024: mm6_enemysheetfix_12
+    21300026: mm6_enemysheetfix_13
+    21300028: mm6_enemysheetfix_14
+    21300030: mm6_enemysheetfix_15
+    21300032: mm6_enemysheetfix_16
+    21300034: mm6_enemysheetfix_17
+    21300036: mm6_enemysheetfix_18
+    21300038: mm6_enemysheetfix_19
+    21300040: mm6_enemysheetfix_20
+    21300042: mm6_enemysheetfix_21
+    21300044: mm6_enemysheetfix_22
+    21300046: mm6_enemysheetfix_23
+    21300048: mm6_enemysheetfix_24
+    21300050: mm6_enemysheetfix_25
+    21300052: mm6_enemysheetfix_26
+    21300054: mm6_enemysheetfix_27
+    21300056: mm6_enemysheetfix_28
+    21300058: mm6_enemysheetfix_29
+    21300060: mm6_enemysheetfix_30
+    21300062: mm6_enemysheetfix_31
+    21300064: mm6_enemysheetfix_32
+    21300066: mm6_enemysheetfix_33
+    21300068: mm6_enemysheetfix_34
+    21300070: mm6_enemysheetfix_35
+    21300072: mm6_enemysheetfix_36
+    21300074: mm6_enemysheetfix_37
+    21300076: mm6_enemysheetfix_38
+    21300078: mm6_enemysheetfix_39
+    21300080: mm6_enemysheetfix_40
+    21300082: mm6_enemysheetfix_41
+    21300084: mm6_enemysheetfix_42
+    21300086: mm6_enemysheetfix_43
+    21300088: mm6_enemysheetfix_44
+    21300090: mm6_enemysheetfix_45
+    21300092: mm6_enemysheetfix_46
+    21300094: mm6_enemysheetfix_47
+    21300096: mm6_enemysheetfix_48
+    21300098: mm6_enemysheetfix_49
+    21300100: mm6_enemysheetfix_50
+    21300102: mm6_enemysheetfix_51
+    21300104: mm6_enemysheetfix_52
+    21300106: mm6_enemysheetfix_53
+    21300108: mm6_enemysheetfix_54
+    21300110: mm6_enemysheetfix_55
+    21300112: mm6_enemysheetfix_56
+    21300114: mm6_enemysheetfix_57
+    21300116: mm6_enemysheetfix_58
+    21300118: mm6_enemysheetfix_59
+    21300120: mm6_enemysheetfix_60
+    21300122: mm6_enemysheetfix_61
+    21300124: mm6_enemysheetfix_62
+    21300126: mm6_enemysheetfix_63
+    21300128: mm6_enemysheetfix_64
+    21300130: mm6_enemysheetfix_65
+    21300132: mm6_enemysheetfix_66
+    21300134: mm6_enemysheetfix_67
+    21300136: mm6_enemysheetfix_68
+    21300138: mm6_enemysheetfix_69
+    21300140: mm6_enemysheetfix_70
+    21300142: mm6_enemysheetfix_71
+    21300144: mm6_enemysheetfix_72
+    21300146: mm6_enemysheetfix_73
+    21300148: mm6_enemysheetfix_74
+    21300150: mm6_enemysheetfix_75
+    21300152: mm6_enemysheetfix_76
+    21300154: mm6_enemysheetfix_77
+    21300156: mm6_enemysheetfix_78
+    21300158: mm6_enemysheetfix_79
+    21300160: mm6_enemysheetfix_80
+    21300162: mm6_enemysheetfix_81
+    21300164: mm6_enemysheetfix_82
+    21300166: mm6_enemysheetfix_83
+    21300168: mm6_enemysheetfix_84
+    21300170: mm6_enemysheetfix_85
+    21300172: mm6_enemysheetfix_86
+    21300174: mm6_enemysheetfix_87
+    21300176: mm6_enemysheetfix_88
+    21300178: mm6_enemysheetfix_89
+    21300180: mm6_enemysheetfix_90
+    21300182: mm6_enemysheetfix_91
+    21300184: mm6_enemysheetfix_92
+    21300186: mm6_enemysheetfix_93
+    21300188: mm6_enemysheetfix_94
+    21300190: mm6_enemysheetfix_95
+    21300192: mm6_enemysheetfix_96
+    21300194: mm6_enemysheetfix_97
+    21300196: mm6_enemysheetfix_98
+    21300198: mm6_enemysheetfix_99
+    21300200: mm6_enemysheetfix_100
+    21300202: mm6_enemysheetfix_101
+    21300204: mm6_enemysheetfix_102
+    21300206: mm6_enemysheetfix_103
+    21300208: mm6_enemysheetfix_104
+    21300210: mm6_enemysheetfix_105
+    21300212: mm6_enemysheetfix_106
+    21300214: mm6_enemysheetfix_107
+    21300216: mm6_enemysheetfix_108
+    21300218: mm6_enemysheetfix_109
+    21300220: mm6_enemysheetfix_110
+    21300222: mm6_enemysheetfix_111
+    21300224: mm6_enemysheetfix_112
+    21300226: mm6_enemysheetfix_113
+    21300228: mm6_enemysheetfix_114
+    21300230: mm6_enemysheetfix_115
+    21300232: mm6_enemysheetfix_116
+    21300234: mm6_enemysheetfix_117
+    21300236: mm6_enemysheetfix_118
+    21300238: mm6_enemysheetfix_119
+    21300240: mm6_enemysheetfix_120
+    21300242: mm6_enemysheetfix_121
+    21300244: mm6_enemysheetfix_122
+    21300246: mm6_enemysheetfix_123
+    21300248: mm6_enemysheetfix_124
+    21300250: mm6_enemysheetfix_125
+    21300252: mm6_enemysheetfix_126
+    21300254: mm6_enemysheetfix_127
+    21300256: mm6_enemysheetfix_128
+    21300258: mm6_enemysheetfix_129
+    21300260: mm6_enemysheetfix_130
+    21300262: mm6_enemysheetfix_131
+    21300264: mm6_enemysheetfix_132
+    21300266: mm6_enemysheetfix_133
+    21300268: mm6_enemysheetfix_134
+    21300270: mm6_enemysheetfix_135
+    21300272: mm6_enemysheetfix_136
+    21300274: mm6_enemysheetfix_137
+    21300276: mm6_enemysheetfix_138
+    21300278: mm6_enemysheetfix_139
+    21300280: mm6_enemysheetfix_140
+    21300282: mm6_enemysheetfix_141
+    21300284: mm6_enemysheetfix_142
+    21300286: mm6_enemysheetfix_143
+    21300288: mm6_enemysheetfix_144
+    21300290: mm6_enemysheetfix_145
+    21300292: mm6_enemysheetfix_146
+    21300294: mm6_enemysheetfix_147
+    21300296: mm6_enemysheetfix_148
+    21300298: mm6_enemysheetfix_149
+    21300300: mm6_enemysheetfix_150
+    21300302: mm6_enemysheetfix_151
+    21300304: mm6_enemysheetfix_152
+    21300306: mm6_enemysheetfix_153
+    21300308: mm6_enemysheetfix_154
+    21300310: mm6_enemysheetfix_155
+    21300312: mm6_enemysheetfix_156
+    21300314: mm6_enemysheetfix_157
+    21300316: mm6_enemysheetfix_158
+    21300318: mm6_enemysheetfix_159
+    21300320: mm6_enemysheetfix_160
+    21300322: mm6_enemysheetfix_161
+    21300324: mm6_enemysheetfix_162
+    21300326: mm6_enemysheetfix_163
+    21300328: mm6_enemysheetfix_164
+    21300330: mm6_enemysheetfix_165
+    21300332: mm6_enemysheetfix_166
+    21300334: mm6_enemysheetfix_167
+    21300336: mm6_enemysheetfix_168
+    21300338: mm6_enemysheetfix_169
+    21300340: mm6_enemysheetfix_170
+    21300342: mm6_enemysheetfix_171
+    21300344: mm6_enemysheetfix_172
+    21300346: mm6_enemysheetfix_173
+    21300348: mm6_enemysheetfix_174
+    21300350: mm6_enemysheetfix_175
+    21300352: mm6_enemysheetfix_176
+    21300354: mm6_enemysheetfix_177
+    21300356: mm6_enemysheetfix_178
+    21300358: mm6_enemysheetfix_179
+    21300360: mm6_enemysheetfix_180
+    21300362: mm6_enemysheetfix_181
+    21300364: mm6_enemysheetfix_182
+    21300366: mm6_enemysheetfix_183
+    21300368: mm6_enemysheetfix_184
+    21300370: mm6_enemysheetfix_185
+    21300372: mm6_enemysheetfix_186
+    21300374: mm6_enemysheetfix_187
+    21300376: mm6_enemysheetfix_188
+    21300378: mm6_enemysheetfix_189
+    21300380: mm6_enemysheetfix_190
+    21300382: mm6_enemysheetfix_191
+    21300384: mm6_enemysheetfix_192
+    21300386: mm6_enemysheetfix_193
+    21300388: mm6_enemysheetfix_194
+    21300390: mm6_enemysheetfix_195
+    21300392: mm6_enemysheetfix_196
+    21300394: mm6_enemysheetfix_197
+    21300396: mm6_enemysheetfix_198
+    21300398: mm6_enemysheetfix_199
+    21300400: mm6_enemysheetfix_200
+    21300402: mm6_enemysheetfix_201
+    21300404: mm6_enemysheetfix_202
+    21300406: mm6_enemysheetfix_203
+    21300408: mm6_enemysheetfix_204
+    21300410: mm6_enemysheetfix_205
+    21300412: mm6_enemysheetfix_206
+    21300414: mm6_enemysheetfix_207
+    21300416: mm6_enemysheetfix_208
+    21300418: mm6_enemysheetfix_209
+    21300420: mm6_enemysheetfix_210
+    21300422: mm6_enemysheetfix_211
+    21300424: mm6_enemysheetfix_212
+    21300426: mm6_enemysheetfix_213
+    21300428: mm6_enemysheetfix_214
+    21300430: mm6_enemysheetfix_215
+    21300432: mm6_enemysheetfix_216
+    21300434: mm6_enemysheetfix_217
+    21300436: mm6_enemysheetfix_218
+    21300438: mm6_enemysheetfix_219
+    21300440: mm6_enemysheetfix_220
+    21300442: mm6_enemysheetfix_221
+    21300444: mm6_enemysheetfix_222
+    21300446: mm6_enemysheetfix_223
+    21300448: mm6_enemysheetfix_224
+    21300450: mm6_enemysheetfix_225
+    21300452: mm6_enemysheetfix_226
+    21300454: mm6_enemysheetfix_227
+    21300456: mm6_enemysheetfix_228
+    21300458: mm6_enemysheetfix_229
+    21300460: mm6_enemysheetfix_230
+    21300462: mm6_enemysheetfix_231
+    21300464: mm6_enemysheetfix_232
+    21300466: mm6_enemysheetfix_233
+    21300468: mm6_enemysheetfix_234
+    21300470: mm6_enemysheetfix_235
+    21300472: mm6_enemysheetfix_236
+    21300474: mm6_enemysheetfix_237
+    21300476: mm6_enemysheetfix_238
+    21300478: mm6_enemysheetfix_239
+    21300480: mm6_enemysheetfix_240
+    21300482: mm6_enemysheetfix_241
+    21300484: mm6_enemysheetfix_242
+    21300486: mm6_enemysheetfix_243
+    21300488: mm6_enemysheetfix_244
+    21300490: mm6_enemysheetfix_245
+    21300492: mm6_enemysheetfix_246
+    21300494: mm6_enemysheetfix_247
+    21300496: mm6_enemysheetfix_248
+    21300498: mm6_enemysheetfix_249
+    21300500: mm6_enemysheetfix_250
+    21300502: mm6_enemysheetfix_251
+    21300504: mm6_enemysheetfix_252
+    21300506: mm6_enemysheetfix_253
+    21300508: mm6_enemysheetfix_254
+    21300510: mm6_enemysheetfix_255
+    21300512: mm6_enemysheetfix_256
+    21300514: mm6_enemysheetfix_257
+    21300516: mm6_enemysheetfix_258
+    21300518: mm6_enemysheetfix_259
+    21300520: mm6_enemysheetfix_260
+    21300522: mm6_enemysheetfix_261
+    21300524: mm6_enemysheetfix_262
+    21300526: mm6_enemysheetfix_263
+    21300528: mm6_enemysheetfix_264
+    21300530: mm6_enemysheetfix_265
+    21300532: mm6_enemysheetfix_266
+    21300534: mm6_enemysheetfix_267
+    21300536: mm6_enemysheetfix_268
+    21300538: mm6_enemysheetfix_269
+    21300540: mm6_enemysheetfix_270
+    21300542: mm6_enemysheetfix_271
+    21300544: mm6_enemysheetfix_272
+    21300546: mm6_enemysheetfix_273
+    21300548: mm6_enemysheetfix_274
+    21300550: mm6_enemysheetfix_275
+    21300552: mm6_enemysheetfix_276
+    21300554: mm6_enemysheetfix_277
+    21300556: mm6_enemysheetfix_278
+    21300558: mm6_enemysheetfix_279
+    21300560: mm6_enemysheetfix_280
+    21300562: mm6_enemysheetfix_281
+    21300564: mm6_enemysheetfix_282
+    21300566: mm6_enemysheetfix_283
+    21300568: mm6_enemysheetfix_284
+    21300570: mm6_enemysheetfix_285
+    21300572: mm6_enemysheetfix_286
+    21300574: mm6_enemysheetfix_287
+    21300576: mm6_enemysheetfix_288
+    21300578: mm6_enemysheetfix_289
+    21300580: mm6_enemysheetfix_290
+    21300582: mm6_enemysheetfix_291
+    21300584: mm6_enemysheetfix_292
+    21300586: mm6_enemysheetfix_293
+    21300588: mm6_enemysheetfix_294
+    21300590: mm6_enemysheetfix_295
+    21300592: mm6_enemysheetfix_296
+    21300594: mm6_enemysheetfix_297
+    21300596: mm6_enemysheetfix_298
+    21300598: mm6_enemysheetfix_299
+    21300600: mm6_enemysheetfix_300
+    21300602: mm6_enemysheetfix_301
+    21300604: mm6_enemysheetfix_302
+    21300606: mm6_enemysheetfix_303
+    21300608: mm6_enemysheetfix_304
+    21300610: mm6_enemysheetfix_305
+    21300612: mm6_enemysheetfix_306
+    21300614: mm6_enemysheetfix_307
+    21300616: mm6_enemysheetfix_308
+    21300618: mm6_enemysheetfix_309
+    21300620: mm6_enemysheetfix_310
+    21300622: mm6_enemysheetfix_311
+    21300624: mm6_enemysheetfix_312
+    21300626: mm6_enemysheetfix_313
+    21300628: mm6_enemysheetfix_314
+    21300630: mm6_enemysheetfix_315
+    21300632: mm6_enemysheetfix_316
+    21300634: mm6_enemysheetfix_317
+    21300636: mm6_enemysheetfix_318
+    21300638: mm6_enemysheetfix_319
+    21300640: mm6_enemysheetfix_320
+    21300642: mm6_enemysheetfix_321
+    21300644: mm6_enemysheetfix_322
+    21300646: mm6_enemysheetfix_323
+    21300648: mm6_enemysheetfix_324
+    21300650: mm6_enemysheetfix_325
+    21300652: mm6_enemysheetfix_326
+    21300654: mm6_enemysheetfix_327
+    21300656: mm6_enemysheetfix_328
+    21300658: mm6_enemysheetfix_329
+    21300660: mm6_enemysheetfix_330
+    21300662: mm6_enemysheetfix_331
+    21300664: mm6_enemysheetfix_332
+    21300666: mm6_enemysheetfix_333
+    21300668: mm6_enemysheetfix_334
+    21300670: mm6_enemysheetfix_335
+    21300672: mm6_enemysheetfix_336
+    21300674: mm6_enemysheetfix_337
+    21300676: mm6_enemysheetfix_338
+    21300678: mm6_enemysheetfix_339
+    21300680: mm6_enemysheetfix_340
+    21300682: mm6_enemysheetfix_341
+    21300684: mm6_enemysheetfix_342
+    21300686: mm6_enemysheetfix_343
+    21300688: mm6_enemysheetfix_344
+    21300690: mm6_enemysheetfix_345
+    21300692: mm6_enemysheetfix_346
+    21300694: mm6_enemysheetfix_347
+    21300696: mm6_enemysheetfix_348
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 788
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 788
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 788
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 789
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 788
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 788
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 788
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 807
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 807
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 788
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 788
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 788
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 788
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 792
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_14
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 788
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_15
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 788
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_16
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 788
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_17
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 788
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_18
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 788
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_19
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 788
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_20
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 788
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_21
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 788
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 753
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_23
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 753
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 754
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 754
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 754
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_27
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 753
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_28
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 753
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_29
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 753
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_30
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 753
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 753
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_32
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 753
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_33
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 753
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_34
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 753
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_35
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 753
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_36
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 754
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 751
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_38
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 751
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_39
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 751
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_40
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_41
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 747
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_42
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 747
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_43
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_44
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 747
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_45
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 747
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_46
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 747
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_47
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_48
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_49
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_50
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 747
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 702
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_52
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 702
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_53
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 702
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_54
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 702
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_55
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 702
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_56
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 702
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_57
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 702
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_58
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 702
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_59
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 700
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_60
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 714
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_61
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 702
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 702
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_63
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 702
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_64
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 702
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_65
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 702
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_66
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 702
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_67
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 702
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_68
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 702
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_69
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 700
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_70
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 714
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 661
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_72
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 661
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_73
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 661
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_74
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 661
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_75
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 661
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_76
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 661
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_77
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 661
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_78
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 661
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_79
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 659
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_80
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 673
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_81
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 660
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_82
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 660
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_83
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 660
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_84
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 660
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_85
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 660
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_86
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 680
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_87
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 678
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_88
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 674
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_89
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 613
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_90
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 613
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 613
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_92
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 613
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_93
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 613
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_94
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 613
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_95
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 613
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_96
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 616
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_97
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 614
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 614
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_99
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 614
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_100
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 614
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_101
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 614
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_102
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 614
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_103
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 614
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_104
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 614
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_105
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 614
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_106
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 614
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_107
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 614
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_108
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 614
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_109
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 614
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_110
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 565
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_111
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 565
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_112
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 565
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_113
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 579
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_114
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 565
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_115
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 566
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_116
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 566
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_117
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 565
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 567
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_119
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 568
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_120
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 567
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_121
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 569
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_122
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 569
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_123
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 569
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_124
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 569
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_125
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 569
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_126
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 585
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_127
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 585
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_128
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 585
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_129
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 569
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_130
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 569
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_131
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 569
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_132
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 524
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_133
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 524
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_134
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 524
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_135
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 524
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_136
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 534
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_137
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 523
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_138
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 523
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_139
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 523
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_140
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 523
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_141
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 523
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_142
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 523
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_143
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 523
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_144
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 523
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_145
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 523
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_146
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 523
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_147
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 523
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_148
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 523
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_149
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 484
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_150
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 484
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_151
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 484
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_152
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 484
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_153
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 507
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_154
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 484
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_155
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 484
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_156
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 484
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_157
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 484
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_158
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 484
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_159
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 484
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_160
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 484
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_161
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 484
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_162
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 484
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_163
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 484
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_164
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 484
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_165
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 484
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_166
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 484
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_167
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 484
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_168
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 484
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_169
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 484
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_170
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 499
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_171
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 427
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_172
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 427
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_173
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 428
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_174
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 427
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_175
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 427
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_176
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 453
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_177
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 427
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_178
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_179
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 427
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_180
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 426
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_181
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 426
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_182
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 426
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_183
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 427
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_184
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_185
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 427
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_186
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 427
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_187
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 427
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_188
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 427
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_189
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 427
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_190
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 427
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_191
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 427
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_192
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 427
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_193
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 443
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_194
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 442
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_195
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 443
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_196
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 381
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_197
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 378
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_198
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 378
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_199
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 394
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_200
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 378
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_201
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 378
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_202
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 378
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_203
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 378
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_204
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 378
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_205
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 378
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_206
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 378
+        width: 67
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_207
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 378
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_208
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 378
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_209
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 378
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_210
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 378
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_211
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 378
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_212
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 399
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_213
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 378
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_214
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 378
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_215
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 378
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_216
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 389
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_217
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 389
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_218
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 385
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_219
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 386
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_220
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 384
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_221
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 384
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_222
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_223
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 340
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_224
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 340
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_225
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 337
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_226
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 337
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_227
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 334
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_228
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 334
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_229
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 333
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_230
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 333
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_231
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 333
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_232
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 333
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_233
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 333
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_234
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 333
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_235
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 333
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_236
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 333
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_237
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 338
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_238
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 338
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_239
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 338
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_240
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 338
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_241
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 346
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_242
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 289
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_243
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 289
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_244
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 289
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_245
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 289
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_246
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 287
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_247
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 287
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_248
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 287
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_249
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 287
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_250
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 287
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_251
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 287
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_252
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 278
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_253
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 278
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_254
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 315
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_255
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_256
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 294
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_257
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 294
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_258
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 290
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_259
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 278
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_260
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 278
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_261
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 235
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_262
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 235
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_263
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 235
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_264
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 235
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_265
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 235
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_266
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 235
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_267
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 235
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_268
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 235
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_269
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 235
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_270
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 235
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_271
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 235
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_272
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 235
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_273
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 235
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_274
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 235
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_275
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 235
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_276
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 235
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_277
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 235
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_278
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 235
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_279
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_280
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_281
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 234
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_282
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 238
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_283
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 238
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_284
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 238
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_285
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 237
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_286
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 180
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_287
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 180
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_288
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 183
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_289
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 183
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_290
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 188
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_291
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 188
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_292
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 189
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_293
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 189
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_294
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 178
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_295
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 178
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_296
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 178
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_297
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 178
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_298
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 178
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_299
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 179
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_300
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 178
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_301
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 178
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_302
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 178
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_303
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 197
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_304
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 197
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_305
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 186
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_306
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 119
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_307
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 119
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_308
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 119
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_309
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 119
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_310
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 119
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_311
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 119
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_312
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 119
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_313
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 119
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_314
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 122
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_315
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 131
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_316
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 141
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_317
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 131
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_318
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 136
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_319
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 120
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_320
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 72
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_321
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 72
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_322
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 73
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_323
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 73
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_324
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 72
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_325
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 72
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_326
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 72
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_327
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 72
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_328
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 72
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_329
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_330
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_331
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 85
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_332
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 85
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_333
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 80
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_334
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 80
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_335
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 13
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_336
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 13
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_337
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 13
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_338
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 13
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_339
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 13
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_340
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 13
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_341
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 13
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_342
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 13
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_343
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 13
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_344
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 13
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_345
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 13
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_346
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 13
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_347
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 13
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mm6_enemysheetfix_348
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 13
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
