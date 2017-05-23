@@ -3,40 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using AllPlayerState;
 
-public class PlayerController : SingletonMono<PlayerController>
+public class PlayerController : BattleCharacter
 {
-    [SerializeField]
-    private GameObject PlayerGameObject = null;
-
-    [SerializeField]
-    private Transform PlayerTransform = null;
-
-    [SerializeField]
-    private Rigidbody2D PlayerRigidbody2D = null;
-
-    [SerializeField]
-    private Animator PlayerAnimator = null;
-
-    [SerializeField]
-    private float Speed = 0;
-
-    [SerializeField]
-    private float JumpForce = 0;
-
-    [SerializeField]
-    private bool Grounded = false;
-
-    private Vector3 Direct = Vector3.right;
-
     private PlayerStateContext PlayerStateContextScript;
     private StateComponent PlayerComponent = new StateComponent();
-
-    [SerializeField]
-    private HPManager HPManagerScript = null;
-    [SerializeField]
-    private BoxCollider2D PlayerBody = null;
-    [SerializeField]
-    private SpriteRenderer PlayerSrpite = null;
 
     private void Awake()
     {
@@ -47,14 +17,14 @@ public class PlayerController : SingletonMono<PlayerController>
 
     private void SetPlayerComponent()//Set player component to use in state machine
     {
-        PlayerComponent.ThisGameObject = PlayerGameObject;
-        PlayerComponent.ThisTransform = PlayerTransform;
-        PlayerComponent.ThisRigidbody2D = PlayerRigidbody2D;
-        PlayerComponent.ThisAnimator = PlayerAnimator;
+        PlayerComponent.ThisGameObject = CharacterGameObject;
+        PlayerComponent.ThisTransform = CharacterTransform;
+        PlayerComponent.ThisRigidbody2D = CharacterRigidbody2D;
+        PlayerComponent.ThisAnimator = CharacterAnimator;
 
-        PlayerComponent.MoveSpeed = Speed;
-        PlayerComponent.JumpForce = JumpForce;
-        PlayerComponent.Direct = Direct;
+        PlayerComponent.MoveSpeed = CharacterSpeed;
+        PlayerComponent.JumpForce = CharacterJumpForce;
+        PlayerComponent.Direct = CharacterDirect;
     }
 
     void Start()
@@ -80,23 +50,23 @@ public class PlayerController : SingletonMono<PlayerController>
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag.Contains("Enemy") && collision.gameObject.layer == PlayerGameObject.layer)
+        if (collision.gameObject.tag.Contains("Enemy") && collision.gameObject.layer == CharacterGameObject.layer)
         {
-            PlayerInjurd(20);
+            CharacterInjurd(20);
         }
     }
 
     private void CheckGround()//Check player is on ground
     {
-        Vector2 LinecastEnd = new Vector2(PlayerTransform.position.x, PlayerTransform.position.y - 1.5f);
-        LayerMask TargetGround = LayerMask.GetMask(LayerMask.LayerToName(PlayerGameObject.layer + 3));
-        Grounded = Physics2D.Linecast(PlayerTransform.position, LinecastEnd, TargetGround);
-        PlayerComponent.Grounded = Grounded;
+        Vector2 LinecastEnd = new Vector2(CharacterTransform.position.x, CharacterTransform.position.y - 0.1f);
+        LayerMask TargetGround = LayerMask.GetMask(LayerMask.LayerToName(CharacterGameObject.layer + 3));
+        CharacterGrounded = Physics2D.Linecast(CharacterTransform.position, LinecastEnd, TargetGround);
+        PlayerComponent.Grounded = CharacterGrounded;
     }
 
-    public void PlayerInjurd(int Damage)
+    public override void CharacterInjurd(int Damage)
     {
-        if (!PlayerBody.enabled)
+        if (!CharacterBodyCehck.enabled)
         {
             return;
         }
@@ -107,20 +77,20 @@ public class PlayerController : SingletonMono<PlayerController>
 
     private IEnumerator PlayInvincible(int playtimes,float playonce)
     {
-        PlayerBody.enabled = false;
+        CharacterBodyCehck.enabled = false;
         for (int i = 0; i < playtimes; i++)
         {
             if (i % 2 == 1)
             {
-                PlayerSrpite.color = Color.clear;
+                CharacterPlayerSrpite.color = Color.clear;
             }
             else
             {
-                PlayerSrpite.color = Color.white;
+                CharacterPlayerSrpite.color = Color.white;
             }
             yield return new WaitForSeconds(playonce);
         }
-        PlayerSrpite.color = Color.white;
-        PlayerBody.enabled = true;
+        CharacterPlayerSrpite.color = Color.white;
+        CharacterBodyCehck.enabled = true;
     }
 }

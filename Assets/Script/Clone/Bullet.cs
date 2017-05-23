@@ -30,15 +30,15 @@ public class Bullet : MonoBehaviour
         BulletRigidbody.position += direct * Speed * Time.deltaTime;
     }
 
-    private Enemy.EnemyState EnemyStateScript;
+    private BattleCharacter BattleCharacterScript;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == this.gameObject.layer || collision.gameObject.tag.Contains("Wall"))
         {
-            EnemyStateScript = collision.transform.parent.GetComponent<Enemy.EnemyState>();
-            if (EnemyStateScript != null)
+            BattleCharacterScript = collision.transform.GetComponentInParent<BattleCharacter>();
+            if (BattleCharacterScript != null)
             {
-                EnemyStateScript.EnemyInjurd(Damage);
+                BattleCharacterScript.CharacterInjurd(Damage);
             }
 
             Destroy(this.gameObject);

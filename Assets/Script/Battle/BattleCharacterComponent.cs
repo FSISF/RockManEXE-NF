@@ -12,6 +12,8 @@ public class BattleCharacterComponent
     public float MoveSpeed;
     public Vector2 Direct;
 
+    public Transform FollowTarget;
+
     public void MoveRigidbody2D(Vector2 direct)
     {
         ThisRigidbody2D.position += direct * MoveSpeed * Time.deltaTime;
@@ -24,6 +26,24 @@ public class BattleCharacterComponent
         else
         {
             ThisTransform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+    }
+
+    public void SwitchLine(int UpDown)
+    {
+        if (ThisGameObject.layer - UpDown < 8 || ThisGameObject.layer - UpDown > 10)
+        {
+            return;
+        }
+        ThisGameObject.layer -= UpDown;
+
+        if (UpDown > 0)
+        {
+            ThisRigidbody2D.AddForce(Vector2.up * 10f, ForceMode2D.Impulse);
+        }
+        else
+        {
+            ThisRigidbody2D.AddForce(Vector2.up * 5f, ForceMode2D.Impulse);
         }
     }
 }

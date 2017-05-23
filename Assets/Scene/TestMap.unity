@@ -1248,10 +1248,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1195964246}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8326284c976aed498f7dccaf99a7d6c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e2aa96253c947e4abfefc89452a2782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HPManageScript: {fileID: 1572891855}
+  CharacterGameObject: {fileID: 1195964246}
+  CharacterTransform: {fileID: 1195964249}
+  CharacterRigidbody2D: {fileID: 1195964248}
+  CharacterAnimator: {fileID: 0}
+  CharacterSpeed: 0
+  CharacterJumpForce: 0
+  CharacterGrounded: 0
+  CharacterBodyCehck: {fileID: 1572891854}
+  CharacterPlayerSrpite: {fileID: 1758000628}
+  HPManagerScript: {fileID: 1572891855}
 --- !u!1 &1235973834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,16 +1671,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32fc16e5fbe56594a9cee26d25b0a55d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerGameObject: {fileID: 1757321886}
-  PlayerTransform: {fileID: 1757321887}
-  PlayerRigidbody2D: {fileID: 1757321889}
-  PlayerAnimator: {fileID: 940290861}
-  Speed: 10
-  JumpForce: 15
-  Grounded: 0
+  CharacterGameObject: {fileID: 1757321886}
+  CharacterTransform: {fileID: 1757321887}
+  CharacterRigidbody2D: {fileID: 1757321889}
+  CharacterAnimator: {fileID: 940290861}
+  CharacterSpeed: 10
+  CharacterJumpForce: 15
+  CharacterGrounded: 0
+  CharacterBodyCehck: {fileID: 1191584886}
+  CharacterPlayerSrpite: {fileID: 940290860}
   HPManagerScript: {fileID: 1191584887}
-  PlayerBody: {fileID: 1191584886}
-  PlayerSrpite: {fileID: 940290860}
 --- !u!1 &1758000626
 GameObject:
   m_ObjectHideFlags: 0

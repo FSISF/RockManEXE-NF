@@ -1,7 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Try State Pattern
+/// </summary>
 namespace AllPlayerState
 {
     public enum PlayerNowState
@@ -9,13 +13,14 @@ namespace AllPlayerState
         Idle,
         Move,
         Jump,
+        SwitchLine,
         Attack,
         MoveAttack,
         JumpAttack,
         Injurd,
     }
 
-    public class StateComponent:BattleCharacterComponent
+    public class StateComponent : BattleCharacterComponent
     {
         public float JumpForce;
         public bool Grounded;
@@ -29,11 +34,12 @@ namespace AllPlayerState
         private Bullet BulletScript = null;
         public void DoCloneBullet()
         {
-            Vector3 PlayerPosition = PlayerController.Instance.transform.position;
-            Vector3 ClonePosition = new Vector3(PlayerPosition.x + (Direct.x * 1.75f), PlayerPosition.y);
+            Vector3 PlayerPosition = ThisTransform.position;
+            Vector3 ClonePosition = new Vector3(PlayerPosition.x + (Direct.x * 1.75f), PlayerPosition.y + 1.19f);
             Quaternion CloneRotate = Quaternion.Euler(Vector3.zero);
 
             CloneBullet = GameObject.Instantiate(Resources.Load("CloneObject/Bullet", typeof(GameObject)), ClonePosition, CloneRotate) as GameObject;
+            CloneBullet.layer = ThisGameObject.layer;
 
             BulletScript = CloneBullet.GetComponent<Bullet>();
             BulletScript.Direct = Direct;
@@ -42,7 +48,7 @@ namespace AllPlayerState
 
     public class PlayerStateContext
     {
-        private PlayerState PlayerStateScript = null;
+        private IPlayerState PlayerStateScript = null;
 
         public PlayerNowState NowState = PlayerNowState.Idle;
 
@@ -51,7 +57,7 @@ namespace AllPlayerState
             PlayerStateScript = new PlayerIdle(this, statechangecomponent);
         }
 
-        public void SetPlayerState(PlayerState playerstate)
+        public void SetPlayerState(IPlayerState playerstate)
         {
             PlayerStateScript = playerstate;
         }
@@ -62,7 +68,7 @@ namespace AllPlayerState
         }
     }
 
-    public abstract class PlayerState
+    public abstract class IPlayerState
     {
         protected StateComponent PlayerComponent;
 
@@ -87,7 +93,7 @@ namespace AllPlayerState
         }
     }
 
-    public class PlayerIdle : PlayerState
+    public class PlayerIdle : IPlayerState
     {
         public PlayerIdle(PlayerStateContext playerstatecontext, StateComponent statechangecomponent)
         {
@@ -111,10 +117,19 @@ namespace AllPlayerState
             {
                 PlayerStateContextScript.SetPlayerState(new PlayerAttack(PlayerStateContextScript, PlayerComponent));
             }
+
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                PlayerStateContextScript.SetPlayerState(new PlayerSwitchLine(PlayerStateContextScript, PlayerComponent, 1));
+            }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                PlayerStateContextScript.SetPlayerState(new PlayerSwitchLine(PlayerStateContextScript, PlayerComponent, -1));
+            }
         }
     }
 
-    public class PlayerMove : PlayerState
+    public class PlayerMove : IPlayerState
     {
         public PlayerMove(PlayerStateContext playerstatecontext, StateComponent statechangecomponent)
         {
@@ -152,7 +167,7 @@ namespace AllPlayerState
         }
     }
 
-    public class PlayerJump : PlayerState
+    public class PlayerJump : IPlayerState
     {
         public PlayerJump(PlayerStateContext playerstatecontext, StateComponent statechangecomponent)
         {
@@ -184,7 +199,34 @@ namespace AllPlayerState
         }
     }
 
-    public class PlayerAttack : PlayerState
+    public class PlayerSwitchLine : IPlayerState
+    {
+        public PlayerSwitchLine(PlayerStateContext playerstatecontext, StateComponent statechangecomponent, int UpDown)
+        {
+            StateSet(playerstatecontext, statechangecomponent, PlayerNowState.SwitchLine, () =>
+            {
+                if (PlayerComponent.ThisGameObject.layer - UpDown >= 8 && PlayerComponent.ThisGameObject.layer - UpDown <= 10)
+                {
+                    PlayerComponent.ThisAnimator.Play("PlayerJump");
+                    PlayerComponent.SwitchLine(UpDown);
+                }
+                else
+                {
+                    PlayerStateContextScript.SetPlayerState(new PlayerIdle(PlayerStateContextScript, PlayerComponent));
+                }
+            });
+        }
+
+        public override void StateWork()
+        {
+            if (PlayerComponent.Grounded && PlayerComponent.ThisRigidbody2D.velocity.y == 0)
+            {
+                PlayerStateContextScript.SetPlayerState(new PlayerIdle(PlayerStateContextScript, PlayerComponent));
+            }
+        }
+    }
+
+    public class PlayerAttack : IPlayerState
     {
         private float AttackTimeMax = 0.1f;
         private float ReturnIdleTimeMax = 0.25f;
@@ -232,7 +274,7 @@ namespace AllPlayerState
         }
     }
 
-    public class PlayerMoveAttack : PlayerState
+    public class PlayerMoveAttack : IPlayerState
     {
         private float AttackTimeMax = 0.01f;
         private float ReturnIdleTimeMax = 0.25f;
@@ -291,7 +333,7 @@ namespace AllPlayerState
         }
     }
 
-    public class PlayerJumpAttack : PlayerState
+    public class PlayerJumpAttack : IPlayerState
     {
         private float AttackTimeMax = 0.01f;
         private float ReturnIdleTimeMax = 0.25f;
@@ -340,7 +382,7 @@ namespace AllPlayerState
         }
     }
 
-    public class PlayerInjurd : PlayerState
+    public class PlayerInjurd : IPlayerState
     {
         private float TurnBackMaxTime = 0.5f;
         private float TurnBackTimer = 0;

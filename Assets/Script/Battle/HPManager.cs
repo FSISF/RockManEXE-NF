@@ -41,7 +41,7 @@ public class HPManager : MonoBehaviour
 
         if (HP <= 0)
         {
-            Destroy(this.transform.parent.gameObject);
+            Destroy(this.transform.parent.parent.gameObject);
         }
     }
 }
