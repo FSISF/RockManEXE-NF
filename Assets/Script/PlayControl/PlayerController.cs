@@ -25,13 +25,14 @@ public class PlayerController : BattleCharacter
         PlayerComponent.MoveSpeed = CharacterSpeed;
         PlayerComponent.JumpForce = CharacterJumpForce;
         PlayerComponent.Direct = CharacterDirect;
+        PlayerComponent.ThisBodyCheck = CharacterBodyCehck.gameObject;
     }
 
     void Start()
     {
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         PlayerStateContextScript.StateWork();
         CheckGround();

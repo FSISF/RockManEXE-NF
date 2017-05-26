@@ -23,6 +23,7 @@ public class Mettaur : BattleCharacter
 
         MettaurComponentScript.MoveSpeed = CharacterSpeed;
         MettaurComponentScript.Direct = CharacterDirect;
+        MettaurComponentScript.ThisBodyCheck = CharacterBodyCehck.gameObject;
     }
 
     void Start()
@@ -32,11 +33,8 @@ public class Mettaur : BattleCharacter
 
     void Update()
     {
+        MettaurComponentScript.FollowTarget = FollowTarget;
         MettaurStateContextScript.StateWork();
-    }
-
-    private void FixedUpdate()
-    {
         CheckGround();
     }
 

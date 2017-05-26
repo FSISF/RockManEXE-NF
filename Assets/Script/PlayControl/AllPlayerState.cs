@@ -26,21 +26,6 @@ namespace AllPlayerState
         {
             ThisRigidbody2D.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
         }
-
-        private GameObject CloneBullet = null;
-        private Bullet BulletScript = null;
-        public void DoCloneBullet()
-        {
-            Vector3 PlayerPosition = ThisTransform.position;
-            Vector3 ClonePosition = new Vector3(PlayerPosition.x + (Direct.x * 1.75f), PlayerPosition.y + 1.19f);
-            Quaternion CloneRotate = Quaternion.Euler(Vector3.zero);
-
-            CloneBullet = GameObject.Instantiate(Resources.Load("CloneObject/Bullet", typeof(GameObject)), ClonePosition, CloneRotate) as GameObject;
-            CloneBullet.layer = ThisGameObject.layer;
-
-            BulletScript = CloneBullet.GetComponent<Bullet>();
-            BulletScript.Direct = Direct;
-        }
     }
 
     public class PlayerStateContext
@@ -81,7 +66,7 @@ namespace AllPlayerState
             PlayerComponent = statecomponent;
             PlayerStateContextScript.NowState = nowstate;
 
-            Debug.Log(PlayerStateContextScript.NowState.ToString());
+            //Debug.Log(PlayerStateContextScript.NowState.ToString());
 
             if (startwork != null)
             {
@@ -234,7 +219,7 @@ namespace AllPlayerState
             StateSet(playerstatecontext, statechangecomponent, PlayerNowState.Attack, () =>
             {
                 PlayerComponent.ThisAnimator.Play("PlayerAttack");
-                PlayerComponent.DoCloneBullet();
+                PlayerComponent.DoCloneBullet(1.75f, 1.19f, "Enemy");
             });
         }
 
@@ -282,7 +267,7 @@ namespace AllPlayerState
             StateSet(playerstatecontext, statechangecomponent, PlayerNowState.MoveAttack, () =>
             {
                 PlayerComponent.ThisAnimator.Play("PlayerMoveAttack");
-                PlayerComponent.DoCloneBullet();
+                PlayerComponent.DoCloneBullet(1.75f, 1.19f, "Enemy");
             });
         }
 
@@ -341,7 +326,7 @@ namespace AllPlayerState
             StateSet(playerstatecontext, statechangecomponent, PlayerNowState.JumpAttack, () =>
             {
                 PlayerComponent.ThisAnimator.Play("PlayerJumpAttack");
-                PlayerComponent.DoCloneBullet();
+                PlayerComponent.DoCloneBullet(1.75f, 1.19f, "Enemy");
             });
         }
 

@@ -21,6 +21,15 @@ public class Bullet : MonoBehaviour
 
     public int Damage = 0;
 
+    private string targetTag;
+    public string TargetTag
+    {
+        set
+        {
+            targetTag = value;
+        }
+    }
+
     void Start()
     {
     }
@@ -33,14 +42,21 @@ public class Bullet : MonoBehaviour
     private BattleCharacter BattleCharacterScript;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == this.gameObject.layer || collision.gameObject.tag.Contains("Wall"))
+        if (!string.IsNullOrEmpty(targetTag))
         {
-            BattleCharacterScript = collision.transform.GetComponentInParent<BattleCharacter>();
-            if (BattleCharacterScript != null)
+            if (collision.gameObject.layer == this.gameObject.layer && collision.gameObject.tag.Contains(targetTag))
             {
-                BattleCharacterScript.CharacterInjurd(Damage);
-            }
+                BattleCharacterScript = collision.transform.GetComponentInParent<BattleCharacter>();
+                if (BattleCharacterScript != null)
+                {
+                    BattleCharacterScript.CharacterInjurd(Damage);
+                }
 
+                Destroy(this.gameObject);
+            }
+        }
+        if (collision.gameObject.tag.Contains("Wall"))
+        {
             Destroy(this.gameObject);
         }
     }

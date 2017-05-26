@@ -49,7 +49,7 @@ public class BattleCharacter : MonoBehaviour
 
     protected void SetFollowTarget()
     {
-        FollowTarget = GameObject.FindGameObjectWithTag("Player");
+        FollowTarget = GameObject.Find("Player");
     }
 
     protected virtual void CheckGround()//Check is on ground

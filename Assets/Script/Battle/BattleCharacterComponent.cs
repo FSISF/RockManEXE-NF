@@ -14,6 +14,7 @@ public class BattleCharacterComponent
     public bool Grounded;
     public Vector2 Direct;
 
+    public GameObject ThisBodyCheck;
     public GameObject FollowTarget;
 
     public void MoveRigidbody2D(Vector2 direct)
@@ -37,7 +38,9 @@ public class BattleCharacterComponent
         {
             return;
         }
+
         ThisGameObject.layer -= UpDown;
+        ThisBodyCheck.layer -= UpDown;
 
         if (UpDown > 0)
         {
@@ -47,5 +50,21 @@ public class BattleCharacterComponent
         {
             ThisRigidbody2D.AddForce(Vector2.up * 5f, ForceMode2D.Impulse);
         }
+    }
+
+    private GameObject CloneBullet = null;
+    private Bullet BulletScript = null;
+    public void DoCloneBullet(float FixX, float FixY, string TargetTag)
+    {
+        Vector3 PlayerPosition = ThisTransform.position;
+        Vector3 ClonePosition = new Vector3(PlayerPosition.x + (Direct.x * FixX), PlayerPosition.y + FixY);
+        Quaternion CloneRotate = Quaternion.Euler(Vector3.zero);
+
+        CloneBullet = GameObject.Instantiate(Resources.Load("CloneObject/Bullet", typeof(GameObject)), ClonePosition, CloneRotate) as GameObject;
+        CloneBullet.layer = ThisGameObject.layer;
+
+        BulletScript = CloneBullet.GetComponent<Bullet>();
+        BulletScript.TargetTag = TargetTag;
+        BulletScript.Direct = Direct;
     }
 }
