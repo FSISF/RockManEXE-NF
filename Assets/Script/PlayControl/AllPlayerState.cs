@@ -22,9 +22,6 @@ namespace AllPlayerState
 
     public class StateComponent : BattleCharacterComponent
     {
-        public float JumpForce;
-        public bool Grounded;
-
         public void DoJump()
         {
             ThisRigidbody2D.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);

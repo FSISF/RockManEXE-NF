@@ -10,9 +10,11 @@ public class BattleCharacterComponent
     public Animator ThisAnimator;
 
     public float MoveSpeed;
+    public float JumpForce;
+    public bool Grounded;
     public Vector2 Direct;
 
-    public Transform FollowTarget;
+    public GameObject FollowTarget;
 
     public void MoveRigidbody2D(Vector2 direct)
     {

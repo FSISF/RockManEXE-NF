@@ -56,11 +56,9 @@ public class PlayerController : BattleCharacter
         }
     }
 
-    private void CheckGround()//Check player is on ground
+    protected override void CheckGround()
     {
-        Vector2 LinecastEnd = new Vector2(CharacterTransform.position.x, CharacterTransform.position.y - 0.1f);
-        LayerMask TargetGround = LayerMask.GetMask(LayerMask.LayerToName(CharacterGameObject.layer + 3));
-        CharacterGrounded = Physics2D.Linecast(CharacterTransform.position, LinecastEnd, TargetGround);
+        base.CheckGround();
         PlayerComponent.Grounded = CharacterGrounded;
     }
 
