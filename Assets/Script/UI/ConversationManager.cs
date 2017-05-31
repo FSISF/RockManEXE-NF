@@ -81,6 +81,9 @@ public abstract class ITalkState
     public abstract IEnumerator StateWork();
 }
 
+/// <summary>
+/// NPC Talk Words Show State
+/// </summary>
 public class TalkShow : ITalkState
 {
     private string TempText;
@@ -104,6 +107,9 @@ public class TalkShow : ITalkState
     }
 }
 
+/// <summary>
+/// Ready Input OK Click To Next Talk or Close
+/// </summary>
 public class TalkClickNext : ITalkState
 {
     private int NextID = 0;
