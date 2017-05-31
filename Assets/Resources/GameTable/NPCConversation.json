@@ -1,0 +1,59 @@
+{
+  "NPCConversation": [
+    {
+      "ID": 1000000,
+      "TalkContent": "",
+      "Next": 0
+    },
+    {
+      "ID": 1000001,
+      "TalkContent": "測試1",
+      "Next": 1000002
+    },
+    {
+      "ID": 1000002,
+      "TalkContent": "測試2",
+      "Next": 1000003
+    },
+    {
+      "ID": 1000003,
+      "TalkContent": "測試3",
+      "Next": 1000004
+    },
+    {
+      "ID": 1000004,
+      "TalkContent": "測試4",
+      "Next": 1000005
+    },
+    {
+      "ID": 1000005,
+      "TalkContent": "測試5",
+      "Next": 1000006
+    },
+    {
+      "ID": 1000006,
+      "TalkContent": "測試6",
+      "Next": 1000007
+    },
+    {
+      "ID": 1000007,
+      "TalkContent": "測試7",
+      "Next": 1000008
+    },
+    {
+      "ID": 1000008,
+      "TalkContent": "測試8",
+      "Next": 1000009
+    },
+    {
+      "ID": 1000009,
+      "TalkContent": "測試9",
+      "Next": 1000010
+    },
+    {
+      "ID": 1000010,
+      "TalkContent": "測試10",
+      "Next": 0
+    }
+  ]
+}
