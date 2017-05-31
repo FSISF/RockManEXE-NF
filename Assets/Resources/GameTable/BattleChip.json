@@ -1,0 +1,92 @@
+{
+  "BattleChip": [
+    {
+      "ID": 0,
+      "Name": "",
+      "Info": "",
+      "Damage": 0,
+      "Type": "Common",
+      "Features": 0
+    },
+    {
+      "ID": 1,
+      "Name": "Test1",
+      "Info": "Info1",
+      "Damage": 10,
+      "Type": "Common",
+      "Features": 1
+    },
+    {
+      "ID": 2,
+      "Name": "Test2",
+      "Info": "Info2",
+      "Damage": 20,
+      "Type": "Common",
+      "Features": 1
+    },
+    {
+      "ID": 3,
+      "Name": "Test3",
+      "Info": "Info3",
+      "Damage": 30,
+      "Type": "Fire",
+      "Features": 2
+    },
+    {
+      "ID": 4,
+      "Name": "Test4",
+      "Info": "Info4",
+      "Damage": 40,
+      "Type": "Fire",
+      "Features": 2
+    },
+    {
+      "ID": 5,
+      "Name": "Test5",
+      "Info": "Info5",
+      "Damage": 50,
+      "Type": "Water",
+      "Features": 3
+    },
+    {
+      "ID": 6,
+      "Name": "Test6",
+      "Info": "Info6",
+      "Damage": 60,
+      "Type": "Water",
+      "Features": 3
+    },
+    {
+      "ID": 7,
+      "Name": "Test7",
+      "Info": "Info7",
+      "Damage": 70,
+      "Type": "Thunder",
+      "Features": 4
+    },
+    {
+      "ID": 8,
+      "Name": "Test8",
+      "Info": "Info8",
+      "Damage": 80,
+      "Type": "Thunder",
+      "Features": 4
+    },
+    {
+      "ID": 9,
+      "Name": "Test9",
+      "Info": "Info9",
+      "Damage": 90,
+      "Type": "Wood",
+      "Features": 5
+    },
+    {
+      "ID": 10,
+      "Name": "Test10",
+      "Info": "Info10",
+      "Damage": 100,
+      "Type": "Wood",
+      "Features": 5
+    }
+  ]
+}
