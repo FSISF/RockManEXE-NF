@@ -80,11 +80,14 @@ namespace MettaurState
         private float TargetPosX;
         public override void StateWork()
         {
-            MettaurPosX = MettaurComponentScript.ThisTransform.position.x;
-            TargetPosX = MettaurComponentScript.FollowTarget.transform.position.x;
-            if (Mathf.Abs(MettaurPosX - TargetPosX) <= 20)
+            if (MettaurComponentScript.FollowTarget != null)
             {
-                MettaurStateContextScript.SetState(new MettaurFollow(MettaurStateContextScript, MettaurComponentScript));
+                MettaurPosX = MettaurComponentScript.ThisTransform.position.x;
+                TargetPosX = MettaurComponentScript.FollowTarget.transform.position.x;
+                if (Mathf.Abs(MettaurPosX - TargetPosX) <= 20)
+                {
+                    MettaurStateContextScript.SetState(new MettaurFollow(MettaurStateContextScript, MettaurComponentScript));
+                }
             }
         }
     }
@@ -105,36 +108,43 @@ namespace MettaurState
         private float WaittingNextTimer = 0;
         public override void StateWork()
         {
-            MettaurPosX = MettaurComponentScript.ThisTransform.position.x;
-            TargetPosX = MettaurComponentScript.FollowTarget.transform.position.x;
-            if (Mathf.Abs(MettaurPosX - TargetPosX) > 20)
+            if (MettaurComponentScript.FollowTarget != null)
             {
-                MettaurStateContextScript.SetState(new MettaurIdle(MettaurStateContextScript, MettaurComponentScript));
+                MettaurPosX = MettaurComponentScript.ThisTransform.position.x;
+                TargetPosX = MettaurComponentScript.FollowTarget.transform.position.x;
+                if (Mathf.Abs(MettaurPosX - TargetPosX) > 20)
+                {
+                    MettaurStateContextScript.SetState(new MettaurIdle(MettaurStateContextScript, MettaurComponentScript));
+                }
+                else
+                {
+                    if (Mathf.Abs(MettaurPosX - TargetPosX) <= 10 && MettaurComponentScript.FollowTarget.layer != MettaurComponentScript.ThisGameObject.layer)
+                    {
+                        WaittingNextTimer += Time.deltaTime;
+                        if (WaittingNextTimer >= WaittingNextMax)
+                        {
+                            MettaurStateContextScript.SetState(new MettaurSwitchLine(MettaurStateContextScript, MettaurComponentScript));
+                        }
+
+                    }
+                    if (Mathf.Abs(MettaurPosX - TargetPosX) <= 5 && MettaurComponentScript.FollowTarget.layer == MettaurComponentScript.ThisGameObject.layer)
+                    {
+                        MettaurStateContextScript.SetState(new MettaurAttack(MettaurStateContextScript, MettaurComponentScript));
+                    }
+
+                    if (MettaurPosX > TargetPosX)
+                    {
+                        MettaurComponentScript.MoveRigidbody2D(Vector2.left);
+                    }
+                    else if (MettaurPosX < TargetPosX)
+                    {
+                        MettaurComponentScript.MoveRigidbody2D(Vector2.right);
+                    }
+                }
             }
             else
             {
-                if (Mathf.Abs(MettaurPosX - TargetPosX) <= 10 && MettaurComponentScript.FollowTarget.layer != MettaurComponentScript.ThisGameObject.layer)
-                {
-                    WaittingNextTimer += Time.deltaTime;
-                    if (WaittingNextTimer >= WaittingNextMax)
-                    {
-                        MettaurStateContextScript.SetState(new MettaurSwitchLine(MettaurStateContextScript, MettaurComponentScript));
-                    }
-                    
-                }
-                if (Mathf.Abs(MettaurPosX - TargetPosX) <= 5 && MettaurComponentScript.FollowTarget.layer == MettaurComponentScript.ThisGameObject.layer)
-                {
-                    MettaurStateContextScript.SetState(new MettaurAttack(MettaurStateContextScript, MettaurComponentScript));
-                }
-
-                if (MettaurPosX > TargetPosX)
-                {
-                    MettaurComponentScript.MoveRigidbody2D(Vector2.left);
-                }
-                else if (MettaurPosX < TargetPosX)
-                {
-                    MettaurComponentScript.MoveRigidbody2D(Vector2.right);
-                }
+                MettaurStateContextScript.SetState(new MettaurIdle(MettaurStateContextScript, MettaurComponentScript));
             }
         }
     }
@@ -183,19 +193,26 @@ namespace MettaurState
         private float NextAttackTimer = 0;
         public override void StateWork()
         {
-            MettaurPosX = MettaurComponentScript.ThisTransform.position.x;
-            TargetPosX = MettaurComponentScript.FollowTarget.transform.position.x;
-            NextAttackTimer += Time.deltaTime;
-            if (NextAttackTimer >= NextAttackMax)
+            if (MettaurComponentScript.FollowTarget != null)
             {
-                if (Mathf.Abs(MettaurPosX - TargetPosX) <= 5 && MettaurComponentScript.FollowTarget.layer == MettaurComponentScript.ThisGameObject.layer)
+                MettaurPosX = MettaurComponentScript.ThisTransform.position.x;
+                TargetPosX = MettaurComponentScript.FollowTarget.transform.position.x;
+                NextAttackTimer += Time.deltaTime;
+                if (NextAttackTimer >= NextAttackMax)
                 {
-                    MettaurStateContextScript.SetState(new MettaurAttack(MettaurStateContextScript, MettaurComponentScript));
+                    if (Mathf.Abs(MettaurPosX - TargetPosX) <= 5 && MettaurComponentScript.FollowTarget.layer == MettaurComponentScript.ThisGameObject.layer)
+                    {
+                        MettaurStateContextScript.SetState(new MettaurAttack(MettaurStateContextScript, MettaurComponentScript));
+                    }
+                    else
+                    {
+                        MettaurStateContextScript.SetState(new MettaurIdle(MettaurStateContextScript, MettaurComponentScript));
+                    }
                 }
-                else
-                {
-                    MettaurStateContextScript.SetState(new MettaurIdle(MettaurStateContextScript, MettaurComponentScript));
-                }
+            }
+            else
+            {
+                MettaurStateContextScript.SetState(new MettaurIdle(MettaurStateContextScript, MettaurComponentScript));
             }
         }
     }
