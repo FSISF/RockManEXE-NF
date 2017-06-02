@@ -21,7 +21,7 @@ namespace GameTable
     public class NPCConversationTable : Singleton<NPCConversationTable>
     {
         private NPCConversationData NPCConversationDataScript;
-        public Dictionary<int, NPCConversationType> NPCConversationDataTable = new Dictionary<int, NPCConversationType>();
+        private Dictionary<int, NPCConversationType> NPCConversationDataTable = new Dictionary<int, NPCConversationType>();
 
         public NPCConversationTable()
         {
@@ -36,6 +36,34 @@ namespace GameTable
             {
                 NPCConversationDataTable.Add(NPCConversationDataScript.NPCConversation[i].ID, NPCConversationDataScript.NPCConversation[i]);
             }
+        }
+
+        /// <summary>
+        /// Get This ID NPC Conversation Content
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public string NPCConversationTalkContent(int id)
+        {
+            if (!NPCConversationDataTable.ContainsKey(id))
+            {
+                return string.Empty;
+            }
+            return NPCConversationDataTable[id].TalkContent;
+        }
+
+        /// <summary>
+        /// Get This ID NPC Conversation Next ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public int NPCConversationNext(int id)
+        {
+            if (!NPCConversationDataTable.ContainsKey(id))
+            {
+                return 0;
+            }
+            return NPCConversationDataTable[id].Next;
         }
     }
 }

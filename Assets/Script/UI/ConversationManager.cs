@@ -91,7 +91,7 @@ public class TalkShow : ITalkState
 
     public TalkShow(int id)
     {
-        TempText = NPCConversationTable.Instance.NPCConversationDataTable[id].TalkContent;
+        TempText = NPCConversationTable.Instance.NPCConversationTalkContent(id);
         ID = id;
         TalkContext.TextContent.text = string.Empty;
     }
@@ -115,7 +115,7 @@ public class TalkClickNext : ITalkState
     private int NextID = 0;
     public TalkClickNext(int id)
     {
-        NextID = NPCConversationTable.Instance.NPCConversationDataTable[id].Next;
+        NextID = NPCConversationTable.Instance.NPCConversationNext(id);
     }
 
     public override IEnumerator StateWork()
@@ -124,7 +124,7 @@ public class TalkClickNext : ITalkState
         {
             switch (NextID)
             {
-                case 0:
+                case 0://0 Is End This Conversation
                     TalkContext.BreakWhile = true;
                     break;
                 default:
