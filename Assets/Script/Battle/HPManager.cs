@@ -50,7 +50,7 @@ public class HPManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Clone HP Bar 
+    /// Clone Enemy HP Bar 
     /// </summary>
     private void DoCloneHPBar()
     {

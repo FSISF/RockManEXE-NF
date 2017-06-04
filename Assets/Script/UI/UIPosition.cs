@@ -13,6 +13,10 @@ public class UIPosition : Singleton<UIPosition>
 
     public Vector2 WorldToUI(Vector3 pos)
     {
+        if (RectTransformCanvas == null)
+        {
+            RectTransformCanvas = GameObject.Find("Canvas").GetComponent<RectTransform>();
+        }
         Vector2 screenPos = Camera.main.WorldToViewportPoint(pos); //世界物件在螢幕上的座標，螢幕左下角為(0,0)，右上角為(1,1)
         Vector2 viewPos = (screenPos - RectTransformCanvas.pivot) * 2; //世界物件在螢幕上轉換為UI的座標，UI的Pivot point預設是(0.5, 0.5)，這邊把座標原點置中，並讓一個單位從0.5改為1
         float width = RectTransformCanvas.rect.width / 2; //UI一半的寬，因為原點在中心
