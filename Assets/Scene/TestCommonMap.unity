@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 58283395}
   - component: {fileID: 58283396}
   - component: {fileID: 58283397}
+  - component: {fileID: 58283398}
   m_Layer: 0
   m_Name: PlayerSprite
   m_TagString: Player
@@ -167,8 +168,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1783731295
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300006, guid: 51617c13152ffce43a919024dd0d8b18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -195,6 +196,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &58283398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 58283394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d224be2bf89cb2a4381a5384da687bb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThisTransform: {fileID: 1258315268}
+  ThisSpriteRenderer: {fileID: 58283396}
 --- !u!1 &115056211
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,6 +637,7 @@ GameObject:
   - component: {fileID: 1017901549}
   - component: {fileID: 1017901550}
   - component: {fileID: 1017901551}
+  - component: {fileID: 1017901552}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: NPC
@@ -672,8 +687,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1783731295
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: 51617c13152ffce43a919024dd0d8b18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -700,6 +715,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1017901552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1017901548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d224be2bf89cb2a4381a5384da687bb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThisTransform: {fileID: 115056213}
+  ThisSpriteRenderer: {fileID: 1017901550}
 --- !u!1 &1118485017
 GameObject:
   m_ObjectHideFlags: 0
