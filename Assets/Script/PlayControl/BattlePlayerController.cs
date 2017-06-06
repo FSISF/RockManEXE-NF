@@ -70,6 +70,7 @@ public class BattlePlayerController : BattleCharacter
             return;
         }
         HPManagerScript.DecreaseHP(Damage);
+        CloneInjurdShow(Damage);
         PlayerStateContextScript.SetPlayerState(new PlayerInjurd(PlayerStateContextScript, PlayerComponent));
         StartCoroutine(PlayInvincible(15, 0.1f));
     }

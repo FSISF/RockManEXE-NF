@@ -58,4 +58,10 @@ public class BattleCharacter : MonoBehaviour
         LayerMask TargetGround = LayerMask.GetMask(LayerMask.LayerToName(CharacterGameObject.layer + 3));
         CharacterGrounded = Physics2D.Linecast(CharacterTransform.position, LinecastEnd, TargetGround);
     }
+
+    protected void CloneInjurdShow(int injurd)
+    {
+        GameObject CloneShowInjurd = GameObject.Instantiate(Resources.Load("CloneObject/TextInjurdShow") as GameObject);
+        CloneShowInjurd.GetComponent<InjurdShow>().CloneToPlay(injurd, CharacterTransform.position);
+    }
 }

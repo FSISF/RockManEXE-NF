@@ -47,5 +47,6 @@ public class Mettaur : BattleCharacter
     public override void CharacterInjurd(int Damage)
     {
         HPManagerScript.DecreaseHP(Damage);
+        CloneInjurdShow(Damage);
     }
 }
