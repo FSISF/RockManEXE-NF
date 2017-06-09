@@ -13,6 +13,6 @@ public class ChangeScene : MonoBehaviour
 
     public void ClickChangeScene(string scene)
     {
-        SceneManager.LoadScene(scene);
+        SceneState.Instance.SceneChange(scene);
     }
 }
