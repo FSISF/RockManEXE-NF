@@ -39,6 +39,11 @@ public class NPC : Character
     private NPCStateContext NPCStateContextScript = new NPCStateContext();
     private NPCComponent NPCComponentScript = new NPCComponent();
 
+    [SerializeField]
+    private Transform PlayerTransform = null;
+    [SerializeField]
+    private CommonPlayerControl CommonPlayerControlScript = null;
+
     private void Awake()
     {
         AddFirstPoint();
@@ -100,7 +105,34 @@ public class NPC : Character
 
     void Update()
     {
+        MathPlayerAngle();
         NPCStateContextScript.StateWork();
+    }
+
+
+    public float ToPlayerDistance = 0;
+    public Vector3 ToPlayerNormalize;
+    public float ToPlayerAngle = 0;
+    /// <summary>
+    /// Check Player Face to NPC & Near NPC
+    /// </summary>
+    private void MathPlayerAngle()
+    {
+        ToPlayerDistance = Vector2.Distance(CharacterTransform.position, PlayerTransform.position);
+        if (ToPlayerDistance <= 1.5f)
+        {
+            ToPlayerNormalize = Vector3.Normalize(CharacterTransform.position - PlayerTransform.position);
+            ToPlayerAngle = Mathf.Acos(Vector3.Dot(ToPlayerNormalize, CommonPlayerControlScript.Direct));
+            if (ToPlayerAngle <= 1&&Input.GetKeyDown(KeyCode.J))
+            {
+                ConversationManager.Instance.OpenTalk(TalkID);
+            }
+        }
+        else
+        {
+            ToPlayerNormalize = Vector3.zero;
+            ToPlayerAngle = 0;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

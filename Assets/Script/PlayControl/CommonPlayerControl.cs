@@ -30,26 +30,7 @@ public class CommonPlayerControl : Character
 
     void Update()
     {
+        Direct = CommonPlayerComponentScript.Direct;
         CommonPlayerStateContextScript.StateWork();
-    }
-
-    private NPC NPCScript = null;
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag.Contains("NPC") && collision.gameObject.name == "NPCTalkCheck")
-        {
-            NPCScript = collision.GetComponentInParent<NPC>();
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag.Contains("NPC") && collision.gameObject.name == "NPCTalkCheck")
-        {
-            if (Input.GetKeyDown(KeyCode.J))
-            {
-                ConversationManager.Instance.OpenTalk(NPCScript.TalkID);
-            }
-        }
     }
 }
